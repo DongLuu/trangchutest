@@ -52,14 +52,14 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTest.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormTest.Designer.cs">
-      <DependentUpon>FormTest.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trangchu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trangchu.Designer.cs">
+      <DependentUpon>Trangchu.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,6 +72,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Trangchu.resx">
+      <DependentUpon>Trangchu.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

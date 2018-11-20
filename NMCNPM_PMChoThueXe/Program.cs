@@ -16,6 +16,10 @@ namespace NMCNPM_PMChoThueXe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            if (new Form1().ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new Trangchu());
+            }
             Application.Run(new Form1());
         }
     }

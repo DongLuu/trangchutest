@@ -16,5 +16,27 @@ namespace NMCNPM_PMChoThueXe
         {
             InitializeComponent();
         }
+
+        
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            string username = txtTenTaiKhoan.Text;
+            string password = txtMatKhau.Text;
+            if (username == "dongluu" && password == "nhom7")
+            {
+                this.DialogResult = System.Windows.Forms.DialogResult.OK;
+
+            }
+            else
+            {
+                // neu dang nhap dong dung thi xoa txt de nhap lai
+                txtTenTaiKhoan.Clear();
+                txtMatKhau.Clear();
+            }
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

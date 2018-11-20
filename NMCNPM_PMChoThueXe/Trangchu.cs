@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace NMCNPM_PMChoThueXe
 {
-    public partial class FormTest : Form
+    public partial class Trangchu : Form
     {
-        public FormTest()
+        public Trangchu()
         {
             InitializeComponent();
+        }
+
+        private void Trangchu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
