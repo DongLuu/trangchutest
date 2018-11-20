@@ -29,7 +29,7 @@ namespace NMCNPM_PMChoThueXe
             }
             else
             {
-                // neu dang nhap dong dung thi xoa txt de nhap lai
+                // neu dang nhap dung thi xoa txt de nhap lai
                 txtTenTaiKhoan.Clear();
                 txtMatKhau.Clear();
             }
